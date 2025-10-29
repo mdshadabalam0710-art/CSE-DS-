@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 4</title>
+</head>
+<body>
+    <form action="">
+        <h1><center>Student Registration Form</center></h1><hr>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Enter valid email address" required><br><br>
+
+        <label for="pass">Password:</label>
+        <input type="password" name="pass" id="pass" placeholder="Enter password"><br><br>
+
+        <label for="gender">Gender</label>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="other">
+        <label for="other">Other</label>
+        
+        <br><br>
+
+        <label for="course">Course</label>
+        <select name="course" id="">
+            <option value="">--Select Course--</option>
+            <option value="cse">CSE</option>
+            <option value="ece">ECE</option>
+            <option value="me">ME</option>
+            <option value="ee">EE</option>
+        </select><br><br>
+
+        <label for="tel">Contact No:</label>
+        <input type="tel" id="tel" name="tel" placeholder="Enter phone number" required><br><br>
+
+        <label for="add">Address:</label><br>
+        <textarea name="text" id="add" rows="3" placeholder="Enter your address"></textarea><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear"><br><hr>
+
+        <center>&copy; 2025 Student Registration Portal</center>
+
+    </form>
+</body>  
+</html>
