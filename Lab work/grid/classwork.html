@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Layout</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #2c2c2c;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            background: white;
+            padding: 10px;
+            border: 3px solid black;
+        }
+
+        .header {
+            border: 2px solid black;
+            padding: 15px;
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .nav {
+            border: 2px solid black;
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .content-area {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .left,
+        .right {
+            width: 20%;
+            border: 2px solid black;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .main {
+            width: 60%;
+            border: 2px solid black;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .footer {
+            border: 2px solid black;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">Header</div>
+
+        <div class="nav">Navigation Menu</div>
+
+        <div class="content-area">
+            <div class="left">Content</div>
+            <div class="main">Main Content</div>
+            <div class="right">Content</div>
+        </div>
+
+        <div class="footer">Footer</div>
+
+    </div>
+
+</body>
+</html>
